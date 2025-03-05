@@ -2,15 +2,15 @@ package JavaDataTypes;
 
 public class ObjectGarbage {
     public static void main(String[] args) {
-        public Object getObject(Object a) {  // 0
-            Object b = new Object();  // XXX  (New Object Created)
-
-            Object c, d = new Object(); // 1  (New Object Created for d, c is uninitialized)
-            c = b;  // 2  (c now points to the same object as b)
-            b = a = null;  // 3 (b is set to null, a is set to null)
-
-            return c;  // 4 (Returning reference c)
-        }
+//        public Object getObject(Object a) {  // 0
+//            Object b = new Object();  // XXX  (New Object Created)
+//
+//            Object c, d = new Object(); // 1  (New Object Created for d, c is uninitialized)
+//            c = b;  // 2  (c now points to the same object as b)
+//            b = a = null;  // 3 (b is set to null, a is set to null)
+//
+//            return c;  // 4 (Returning reference c)
+//        }
 
     }
 }
